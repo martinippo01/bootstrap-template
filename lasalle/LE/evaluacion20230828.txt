@@ -1,0 +1,44 @@
+Ejercicio 1: 
+Describa las diferencias entre una variable local y golbal. ¿Cual es el alcance de cada una?
+Proponga ejemplos de cada tipo de variable.
+
+
+Ejercicio 2:
+
+Cree una funcion que realice la conversion de temperatura de Celcius a Farenheit. La funcion debe recibir un numero real que representa una temperatura en unidad celcius. Y debe retornar el equivalente en farenheit.
+
+La formula de conversion es:  temperatura * 1.8 + 32
+
+Debe funcionar con el siguiente codigo main:
+
+int main(){
+
+    float temp;
+    printf("Ingrese una temperatura en celcius");
+    scanf("%f", &temp);
+
+    printf("La temperatura es: %g F", conversion(temp));
+}
+
+Ejercicio 3:
+Cree una funcion que imprima un cuadrado. Este cuadrado debe tener estar conformado por un letra. La funcion debe recibir la letra y el tamaño.
+
+Ejemplos:
+ 
+cuadrado('A', 5)
+AAAAA
+AAAAA
+AAAAA
+AAAAA
+AAAAA
+
+cuadrado('*', 8)
+
+********
+********
+********
+********
+********
+********
+********
+********
