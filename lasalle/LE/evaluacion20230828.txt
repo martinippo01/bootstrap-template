@@ -1,3 +1,6 @@
+Enviar soluciones a martinippolito@lasalle.edu.ar con titulo del mail: "Ev 23/08 Funciones"
+
+
 Ejercicio 1: 
 Describa las diferencias entre una variable local y golbal. ¿Cual es el alcance de cada una?
 Proponga ejemplos de cada tipo de variable.
