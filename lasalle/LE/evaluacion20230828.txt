@@ -21,6 +21,8 @@ int main(){
     scanf("%f", &temp);
 
     printf("La temperatura es: %g F", conversion(temp));
+
+    system("pause");
 }
 
 Ejercicio 3:
