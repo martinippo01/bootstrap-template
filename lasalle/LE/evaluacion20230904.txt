@@ -1,0 +1,81 @@
+
+Enviar soluciones a martinippolito@lasalle.edu.ar con titulo del mail: "Ev 23/08 Funciones"
+
+
+Ejercicio 1: 
+Describa las diferencias entre una variable local y golbal. ¿Cual es el alcance de cada una?
+Proponga ejemplos de cada tipo de variable.
+
+
+Ejercicio 2:
+
+Cree una funcion que reciba un string (char []) y un caracter. La funcion debe retornar 1 en caso de que el caracter se encuentre en el string y 0 en caso de que no.
+
+Debe funcionar con el siguiente codigo main:
+
+int main(){
+
+    char string[10] = "ejemplo";
+    char letra;
+    printf("Ingrese un caracter: ");
+    scanf("%c", &letra);
+
+    printf("%d", contiene(string, letra));
+
+    system("pause");
+}
+
+
+Ejercicio 3:
+Escriba una funcion que muestre la tabla de multiplicar de un numero. El programa deber recibir el numero y la cantidad de multiplos a mostrar.
+
+Debe funcionar con el siguiente codigo main:
+
+int main(){
+
+    multiplo(3, 10);
+    multiplo(2, 5);
+
+    system("pause");
+}
+
+Y debe imprimir:
+    3
+    6
+    9
+    12
+    15
+    18
+    21
+    24
+    27
+    30
+
+    2
+    4
+    6
+    8
+    10
+
+Ejercicio 4:
+Escriba una funcion que calcule el procentaje de aumento/descuento de un producto. Debe recibir el precio antiguo y el nuevo precio, y debe retornar el porcentaje de aumento/descuento.
+Adicionalemnte, crear una funcion que reciba un porcentaje e imprima si ese mensaje corresponde a un aumento o un descuento.
+
+Debe funcionar con el siguiente codigo main:
+
+int main(){
+
+    int valor_viejo = 50;
+    int valor_nuevo = 100;
+
+    int procentaje_a = calcularPorcentaje(valor_viejo, valor_nuevo);
+    descuentoOAumento(procentaje_a);
+
+    valor_viejo = 50;
+    valor_nuevo = 10;
+
+    int procentaje_b = calcularPorcentaje(valor_viejo, valor_nuevo);
+    descuentoOAumento(procentaje_b);
+
+    system("pause");
+}
