@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Exercises</h1>
+
+        <h2>Ejercicio 1:</h2>
+        <p>Describa las diferencias entre una variable local y global. ¿Cuál es el alcance de cada una?</p>
+        <p>Proponga ejemplos de cada tipo de variable.</p>
+
+        <h2>Ejercicio 2:</h2>
+        <p>Cree una función que reciba un string (char []) y un caracter. La función debe retornar 1 en caso de que el caracter se encuentre en el string y 0 en caso de que no.</p>
+        <p>Debe funcionar con el siguiente código main:</p>
+        <pre><code>
+int main(){
+    char string[10] = "ejemplo";
+    char letra;
+    printf("Ingrese un caracter: ");
+    scanf("%c", &letra);
+    printf("%d", contiene(string, letra));
+    system("pause");
+}
+        </code></pre>
+
+        <h2>Ejercicio 3:</h2>
+        <p>Escriba una función que muestre la tabla de multiplicar de un numero. El programa deber recibir el numero y la cantidad de múltiplos a mostrar.</p>
+        <p>Debe funcionar con el siguiente código main:</p>
+        <pre><code>
+int main(){
+    multiplo(3, 10);
+    multiplo(2, 5);
+    system("pause");
+}
+        </code></pre>
+        <p>Y debe imprimir:</p>
+        <pre><code>
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+
+2
+4
+6
+8
+10
+        </code></pre>
+
+        <h2>Ejercicio 4:</h2>
+        <p>Escriba una función que calcule el porcentaje de aumento/descuento de un producto. Debe recibir el precio antiguo y el nuevo precio, y debe retornar el porcentaje de aumento/descuento.</p>
+        <p>Adicionalmente, crear una función que reciba un porcentaje e imprima si ese mensaje corresponde a un aumento o un descuento.</p>
+        <p>Debe funcionar con el siguiente código main:</p>
+        <pre><code>
+int main(){
+    int valor_viejo = 50;
+    int valor_nuevo = 100;
+
+    int porcentaje_a = calcularPorcentaje(valor_viejo, valor_nuevo);
+    descuentoOAumento(porcentaje_a);
+
+    valor_viejo = 50;
+    valor_nuevo = 10;
+
+    int porcentaje_b = calcularPorcentaje(valor_viejo, valor_nuevo);
+    descuentoOAumento(porcentaje_b);
+
+    system("pause");
+}
+        </code></pre>
+    </div>
+</body>
+</html>
