@@ -1092,3 +1092,16 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/*---------------------------------------------------------------
+# icon links
+---------------------------------------------------------------*/
+
+.icon-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.icon-link:hover {
+  text-decoration: underline;
+}
